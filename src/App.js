@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import { Parent } from './components/Parent';
 // import FavoriteColor from './components/Usestate';
-import Counter from './components/UsestateCounter';
+// import Counter from './components/UsestateCounter';
 // import LoginUi from './components/LoginPage/Login';
 // import { Greeting } from './components/greeting';
 // import Landing from './components/Landing';
@@ -25,7 +26,8 @@ import Counter from './components/UsestateCounter';
        {/* <Person/> */}
        {/* <LoginUi/> */}
        {/* <FavoriteColor/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Parent/>
      </div>
    );
  }
