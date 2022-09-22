@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Parent } from './components/Parent';
+import { LifeCycle } from './components/LifeCycle';
+// import { Parent } from './components/Parent';
 // import FavoriteColor from './components/Usestate';
 // import Counter from './components/UsestateCounter';
 // import LoginUi from './components/LoginPage/Login';
@@ -27,7 +28,8 @@ import { Parent } from './components/Parent';
        {/* <LoginUi/> */}
        {/* <FavoriteColor/> */}
       {/* <Counter/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <LifeCycle/>
      </div>
    );
  }
