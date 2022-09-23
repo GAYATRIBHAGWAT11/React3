@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import { LifeCycle } from './components/LifeCycle';
+// import Todolist from './components/ToDoList/Todolist';
+import Counter from './components/Buttons/Counter';
+// import { LifeCycle } from './components/LifeCycle';
+// import Counter from './components/UsestateCounter';
 // import { Parent } from './components/Parent';
 // import FavoriteColor from './components/Usestate';
 // import Counter from './components/UsestateCounter';
@@ -13,7 +16,6 @@ import { LifeCycle } from './components/LifeCycle';
 // import Person from './components/Person';
 // import Navbar from './components/Navbar';
 // import textForm from './components/textForm';
-// import {counter} from './components/counter';
 // import Profile from './components/Profile'
 // import Navbar from './InstaClone/Navbar';
 
@@ -29,7 +31,9 @@ import { LifeCycle } from './components/LifeCycle';
        {/* <FavoriteColor/> */}
       {/* <Counter/> */}
       {/* <Parent/> */}
-      <LifeCycle/>
+      {/* <LifeCycle/> */}
+      <Counter/>
+      {/* <Todolist/> */}
      </div>
    );
  }
