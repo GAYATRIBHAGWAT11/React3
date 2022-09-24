@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 // import Todolist from './components/ToDoList/Todolist';
 import Counter from './components/Buttons/Counter';
+// import Cards from './components/Cards/Cards';
 // import { LifeCycle } from './components/LifeCycle';
 // import Counter from './components/UsestateCounter';
 // import { Parent } from './components/Parent';
@@ -34,6 +35,7 @@ import Counter from './components/Buttons/Counter';
       {/* <LifeCycle/> */}
       <Counter/>
       {/* <Todolist/> */}
+      {/* <Cards/> */}
      </div>
    );
  }
