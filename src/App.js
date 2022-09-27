@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import ToDoApp from './components/ToDoApp/ToDoApp';
+// import ChangeColour from './components/souvikSir/ChangeColor';
+import Crud from '/Users/admin/React/my-app/src/components/CRUDapp/Crud.jsx' 
+// import ToDoApp from './components/ToDoApp/ToDoApp';
 // import Todolist from './components/ToDoList/Todolist';
 // import Counter from './components/Buttons/Counter';
 // import Todolist from './components/ToDoList/Todolist';
@@ -38,7 +40,10 @@ import ToDoApp from './components/ToDoApp/ToDoApp';
       {/* <Counter/> */}
       {/* <Todolist/> */}
       {/* <Cards/> */}
-      <ToDoApp/>
+      {/* <ToDoApp/> */}
+      <Crud/>
+      {/* <ChangeColour/> */}
+
      </div>
    );
  }
